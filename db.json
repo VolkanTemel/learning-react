@@ -1,0 +1,32 @@
+{
+  "ilanlar":[
+    {
+      "id": 1,
+      "ilan": "Konut",
+      "categoryId":1
+    },
+    {
+      "id": 2,
+      "ilan": "İş Yeri",
+      "categoryId":1
+    }, 
+    {
+      "id": 3,
+      "ilan": "Arsa",
+      "categoryId":1
+    }
+   ,
+     {
+      "id":4,
+      "ilan":"Otomobil",
+      "categoryId":2
+     },
+     {
+      "id":5,
+      "ilan":"Arazi, SUV & Pickup",
+      "categoryId":2
+     }
+     
+  ]
+}
+  

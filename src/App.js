@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import Navi from "./Navi";
+import CategoryList from "./CategoryList";
+import "./styles.css";
+import React, { Component } from "react";
 
-function App() {
+export default class App extends Component  {
+  state = {
+    current:[]
+};
+
+componentDidMount(){
+  this.ilanlar();
+}
+
+ilanlar = () => {
+  fetch("http://localhost:3000/ilanlar")
+    .then((Response) => Response.json())
+    .then((data) => this.setState({ current: data }));
+};
+
+render(){
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navi ilanlar={this.ilanlar}/>
+      <CategoryList current={this.state.current}/>
     </div>
   );
 }
+}
 
-export default App;
