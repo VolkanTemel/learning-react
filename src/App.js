@@ -16,6 +16,9 @@ export default class App extends Component  {
 componentDidMount(){
   this.ilanlar();
 }
+componentDidUpdate(){
+  this.getItems();
+}
 
 ilanlar = () => {
   fetch("http://localhost:3000/ilanlar")
