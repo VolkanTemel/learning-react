@@ -44,8 +44,11 @@
     "title":"3+1 daire",
     "sehir":"Ankara",
     "pic":"https://lh3.googleusercontent.com/proxy/Z6tgz9glsqcAmPBpMhoSk6Ee9gA1AMxqHVfQN5K4s9F9ZsYlOgjDf9q6UkFdZ66YD8jl0Qy3KcQPbfsp2qPHwIttfJYdCF_3iujFKudcDoH-s2T_F8I"
-  }
-
-]
+  }],
+  "isyeri":[{
+    "id":8,
+    "title":"200 metrekare",
+    "sehir":"İstanbul"
+  }]
 }
   
