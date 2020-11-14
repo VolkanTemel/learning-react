@@ -3,30 +3,49 @@
     {
       "id": 1,
       "ilan": "Konut",
-      "categoryId":1
+      "categoryId":1,
+      "link":"konut"
     },
     {
       "id": 2,
       "ilan": "İş Yeri",
-      "categoryId":1
+      "categoryId":1,
+      "link":"isyeri"
     }, 
     {
       "id": 3,
       "ilan": "Arsa",
-      "categoryId":1
+      "categoryId":1,
+      "link":"arsa"
     }
    ,
      {
       "id":4,
       "ilan":"Otomobil",
-      "categoryId":2
+      "categoryId":2,
+      "link":"otomobil"
      },
      {
       "id":5,
       "ilan":"Arazi, SUV & Pickup",
-      "categoryId":2
+      "categoryId":2,
+      "link":"suv"
      }
      
-  ]
+  ],
+  "konut":[{
+      "id":6,
+      "title":"2+1 daire",
+      "sehir":"İstanbul",
+      "pic":"https://im.haberturk.com/2020/02/09/ver1581247725/2577713_810x458.jpg"
+  },
+  {
+    "id":7,
+    "title":"3+1 daire",
+    "sehir":"Ankara",
+    "pic":"https://lh3.googleusercontent.com/proxy/Z6tgz9glsqcAmPBpMhoSk6Ee9gA1AMxqHVfQN5K4s9F9ZsYlOgjDf9q6UkFdZ66YD8jl0Qy3KcQPbfsp2qPHwIttfJYdCF_3iujFKudcDoH-s2T_F8I"
+  }
+
+]
 }
   
