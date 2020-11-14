@@ -8,7 +8,8 @@ import Items from "./Items"
 export default class App extends Component  {
   state = {
     current:[],
-    currentItems:[]
+    currentItems:[],
+    currentLink:[]
 };
 
 
@@ -22,10 +23,14 @@ ilanlar = () => {
     .then((data) => this.setState({ current: data }));
 };
 getItems=()=>{
-    fetch("http://localhost:3000/konut")
+    fetch("http://localhost:3000/"+this.state.currentLink)
     .then((Response) => Response.json())
     .then((data) => this.setState({ currentItems: data }));
   }
+
+changeItems=category=>{
+  this.setState({currentLink:category.link})
+}
 
 
 render(){
@@ -35,7 +40,7 @@ render(){
       <Navi ilanlar={this.ilanlar}/>
       <Row>
       <Col xs="3">
-      <CategoryList current={this.state.current}  getItems={this.getItems} />
+      <CategoryList current={this.state.current}  changeItems={this.changeItems} />
       </Col>
       <Col xs="9">
       <Items currentItems={this.state.currentItems} />

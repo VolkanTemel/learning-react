@@ -8,8 +8,8 @@ export default class CategoryList extends Component {
     return (
       <div>
         {this.props.current.map((category) => (
-          <li key={category.id}>
-            <button onClick={this.props.getItems}>{category.ilan}</button>
+          <li>
+            <button onClick={()=>this.props.changeItems(category)} key={category.id} >{category.ilan}</button>
           </li>
         ))}
       </div>
