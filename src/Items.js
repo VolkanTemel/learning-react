@@ -22,7 +22,6 @@ export default class Items extends Component {
                   <img src={items.pic}></img>
                 </td>
                 <td>{items.title}</td>
-            
                 <td>{items.fiyat}TL</td>
                 <td>{items.sehir}</td>
               </tr>

@@ -1,2 +1,0 @@
-[1115/131508.091:ERROR:directory_reader_win.cc(43)] FindFirstFile: Sistem belirtilen yolu bulamýyor. (0x3)
-[1115/144844.606:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Volkan\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\3fc7037d-f1e7-4644-8b13-92b27eed0216: Sistem belirtilen yolu bulamýyor. (0x3)
