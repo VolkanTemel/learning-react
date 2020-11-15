@@ -59,6 +59,46 @@
     "fiyat":"5.000.000",
     "metrekare":"500",
     "oda":"2"
-  }]
+  },
+  {
+    "id":9,
+    "title":"500 metrekare",
+    "sehir":"İstanbul",
+    "pic":"https://107849-306720-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2018/01/isyeri-1.jpg",
+    "fiyat":"5.000.000",
+    "metrekare":"500",
+    "oda":"2"
+  },
+  {
+    "id":10,
+    "title":"500 metrekare",
+    "sehir":"İstanbul",
+    "pic":"https://107849-306720-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2018/01/isyeri-1.jpg",
+    "fiyat":"5.000.000",
+    "metrekare":"500",
+    "oda":"2"
+  }],
+  "arsa":[{
+    "id":11,
+    "title":"5000 metrekare arsa",
+    "sehir":"İstanbul",
+    "pic":"https://www.milliyetemlak.com/dergi/wp-content/uploads/2017/01/satilik-arsa-753x500.jpg",
+    "fiyat":"5.000.000",
+    "metrekare":"5000"
+  }],
+  "otomobil":[{
+    "id":12,
+    "title":"temiz araba",
+    "sehir":"Antalya",
+    "pic":"https://i.tmgrup.com.tr/gq/original/20-04/11/bmw-concept-i4_100738503_h.jpg?0.594519873439098",
+    "fiyat":"500.000"
+      }],
+      "suv":[{
+        "id":13,
+        "title":"suv araba",
+        "sehir":"İzmir",
+        "pic":"https://i.ytimg.com/vi/eCHPFow4OOA/maxresdefault.jpg",
+        "fiyat":"400.000"
+      }]
 }
   
