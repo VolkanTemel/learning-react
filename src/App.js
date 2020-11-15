@@ -39,8 +39,8 @@ changeItems=category=>{
 render(){
   return (
     <div>
+       <Navi ilanlar={this.ilanlar}/>
       <Container>
-      <Navi ilanlar={this.ilanlar}/>
       <Row>
       <Col xs="3">
       <CategoryList current={this.state.current}  changeItems={this.changeItems} />

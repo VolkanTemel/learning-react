@@ -44,7 +44,7 @@
   },
   {
     "id":7,
-    "title":"3+1 daire",
+    "title":"3+1 Müstakil Daire",
     "sehir":"Ankara",
     "pic":"https://lh3.googleusercontent.com/proxy/Z6tgz9glsqcAmPBpMhoSk6Ee9gA1AMxqHVfQN5K4s9F9ZsYlOgjDf9q6UkFdZ66YD8jl0Qy3KcQPbfsp2qPHwIttfJYdCF_3iujFKudcDoH-s2T_F8I",
     "fiyat":"1.500.000",
@@ -56,7 +56,9 @@
     "title":"500 metrekare",
     "sehir":"İstanbul",
     "pic":"https://107849-306720-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2018/01/isyeri-1.jpg",
-    "fiyat":"5.000.000"
+    "fiyat":"5.000.000",
+    "metrekare":"500",
+    "oda":"2"
   }]
 }
   
