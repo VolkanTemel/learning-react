@@ -6,7 +6,7 @@ export default class CategoryList extends Component {
   
   render() {
     return (
-      <div>
+      <div id="categoryList">
         {this.props.current.map((category) => (
           <li>
             <button onClick={()=>this.props.changeItems(category)} key={category.id} >{category.ilan}</button>
