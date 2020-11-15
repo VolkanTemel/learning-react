@@ -37,19 +37,26 @@
       "id":6,
       "title":"2+1 daire",
       "sehir":"İstanbul",
-      "pic":"https://im.haberturk.com/2020/02/09/ver1581247725/2577713_810x458.jpg"
+      "pic":"https://im.haberturk.com/2020/02/09/ver1581247725/2577713_810x458.jpg",
+      "fiyat":"1.000.000",
+      "oda":"2+1",
+      "metrekare":"120"
   },
   {
     "id":7,
     "title":"3+1 daire",
     "sehir":"Ankara",
-    "pic":"https://lh3.googleusercontent.com/proxy/Z6tgz9glsqcAmPBpMhoSk6Ee9gA1AMxqHVfQN5K4s9F9ZsYlOgjDf9q6UkFdZ66YD8jl0Qy3KcQPbfsp2qPHwIttfJYdCF_3iujFKudcDoH-s2T_F8I"
+    "pic":"https://lh3.googleusercontent.com/proxy/Z6tgz9glsqcAmPBpMhoSk6Ee9gA1AMxqHVfQN5K4s9F9ZsYlOgjDf9q6UkFdZ66YD8jl0Qy3KcQPbfsp2qPHwIttfJYdCF_3iujFKudcDoH-s2T_F8I",
+    "fiyat":"1.500.000",
+    "oda":"3+1",
+    "metrekare":"150"
   }],
   "isyeri":[{
     "id":8,
-    "title":"200 metrekare",
+    "title":"500 metrekare",
     "sehir":"İstanbul",
-    "pic":"https://107849-306720-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2018/01/isyeri-1.jpg"
+    "pic":"https://107849-306720-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2018/01/isyeri-1.jpg",
+    "fiyat":"5.000.000"
   }]
 }
   
