@@ -5,7 +5,8 @@ export default class Items extends Component {
         return (
             <div>
                 {this.props.currentItems.map((items)=>(
-                    <li key={items.key}>{items.title}</li>
+                    <li key={items.key}>{items.title}<br/><img src={items.pic}></img></li>
+                    
                 ))}
             </div>
         )
