@@ -9,9 +9,8 @@ export default class App extends Component  {
   state = {
     current:[],
     currentItems:[],
-    currentLink:[]
+    currentLink:["konut"]
 };
-
 
 componentDidMount(){
   this.ilanlar();
@@ -34,7 +33,6 @@ getItems=()=>{
 changeItems=category=>{
   this.setState({currentLink:category.link})
 }
-
 
 render(){
   return (

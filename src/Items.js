@@ -8,9 +8,8 @@ export default class Items extends Component {
         <Table>
           <thead>
             <tr>
-              <th> </th>
+              <th></th>
               <th>İlan Başlığı</th>
-             
               <th>Fiyat</th>
               <th>İl</th>
             </tr>
@@ -18,9 +17,7 @@ export default class Items extends Component {
           <tbody>
             {this.props.currentItems.map((items) => (
               <tr key={items.id}>
-                <td>
-                  <img src={items.pic}></img>
-                </td>
+                <td> <img src={items.pic}></img></td>
                 <td>{items.title}</td>
                 <td>{items.fiyat}TL</td>
                 <td>{items.sehir}</td>
